@@ -1,67 +1,63 @@
-# Getting Started with Create React App
+# Proyecto React: Componentes Básicos y Funcionalidades
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. **Hola Mundo**
+   - **Descripción**: Un componente simple que muestra el texto "Hola, mundo!".
+   - **Estilo**: Se aplicaron estilos básicos utilizando CSS para experimentar con la presentación visual.
 
-## Available Scripts
+2. **Tarjeta de Presentación**
+   - **Descripción**: Un componente que representa una tarjeta de presentación con nombre, apellido, profesión y una imagen.
+   - **Características**: Utiliza `props` para pasar los datos a la tarjeta y mostrar la información de manera estructurada.
 
-In the project directory, you can run:
+3. **Contador**
+   - **Descripción**: Un componente que muestra un contador con botones para incrementar y decrementar el valor.
+   - **Estado**: Utiliza el estado para mantener y actualizar el valor del contador en respuesta a las interacciones del usuario.
+
+4. **Lista de Tareas**
+   - **Descripción**: Un componente para gestionar una lista de tareas.
+   - **Características**: Permite agregar nuevas tareas a la lista y marcarlas como completadas.
+
+5. **Formulario Simple**
+   - **Descripción**: Un formulario para capturar el nombre del usuario.
+   - **Características**: Muestra un mensaje de bienvenida personalizado cuando se envía el formulario. Utiliza el estado para manejar el valor del input.
+
+## Scripts Disponibles
+
+En el directorio del proyecto, podes ejecutar los siguientes comandos:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ejecuta la aplicación en modo de desarrollo.\
+Abre [http://localhost:3000](http://localhost:3000) para visualizarla en tu navegador.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Lanza el runner de pruebas en modo interactivo.\
+Consulta la sección sobre [ejecución de pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para más información.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Construye la aplicación para producción en la carpeta `build`.\
+Optimiza el build para el mejor rendimiento y está listo para desplegarse.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Nota**: Esta operación es irreversible. Una vez que `eject`, no puedes volver atrás.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Si no estás satisfecho con la configuración de las herramientas de construcción y los ajustes, puedes `eject` en cualquier momento. Este comando eliminará la dependencia única de construcción de tu proyecto y copiará todos los archivos de configuración y dependencias transitorias (webpack, Babel, ESLint, etc.) directamente en tu proyecto para que tengas un control total sobre ellos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Más Información
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Aprende más en la [documentación de Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
+- Para aprender React, consulta la [documentación de React](https://reactjs.org/).
 
-## Learn More
+## Recursos Adicionales
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
+- **División de Código**: [Documentación sobre división de código](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Análisis del Tamaño del Bundle**: [Documentación sobre análisis del tamaño del bundle](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Creación de una Aplicación Web Progresiva**: [Documentación sobre aplicaciones web progresivas](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Configuración Avanzada**: [Documentación sobre configuración avanzada](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Despliegue**: [Documentación sobre despliegue](https://facebook.github.io/create-react-app/docs/deployment)
+- **Solución de Problemas al Construir**: [Documentación sobre problemas al construir](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
