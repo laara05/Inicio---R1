@@ -1,0 +1,32 @@
+/* Contador.css */
+.contador {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .contador h1 {
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .botones button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #fbff00;
+    color: rgb(245, 0, 0);
+    transition: background-color 0.3s;
+  }
+  
+  .botones button:hover {
+    background-color: #00b32a;
+  }
+  
